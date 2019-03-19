@@ -1,0 +1,77 @@
+void check(){
+
+    char words[256]; // create a char array max legth of words amount 
+
+    * Name: Daniela Mejia
+Project :(Writtin  the word Equivalengt of a check amount )  PROMPT #2
+Date: 3/19/2019
+Intructions :
+1. One common security methid requires that the check amount be both written in numbers and "spell out" in words
+2. Even if someone is able to able to alter the numerical amount of the check, it's extremely difficult to change the amount in words.
+3. Write a program that inputs a numeric check amount and writes teh word equivalengt of the amount in words.
+4. For example, the amount 52.43 should be written as 
+FIFTY TWO and 43/100
+ 
+ 
+ 
+ 
+ PSEUDO CODE FOR PASSWORD
+
+    1. Create a char string for the password "idf"
+    2. Create a second char variable to compare your password to compare
+    3. create iteration variable
+    4. Ask user password input 
+    5. Scan the input
+    6. Create a loop where the two strings are compare with strcmp function if they are access program else denied access.
+    7. getc ets a character (an unsigned char) from stdin
+    8. return.
+
+
+
+ PSEUDO CODE FOR NUMBER IN WORDS void check()
+    
+   - create a char array max legth of words amount 
+   - create a variable for num input
+   - create a variable for iterator
+   - Ask for input number 
+   - scan input 
+
+    - Create an string length of the array
+    - then your number input will be the integer string 
+
+   1. create a while loop while the iteration is not the lenght of the string then start from position 1
+    a. create a loop in the loop where the input number equal to 1 this will read the first number from left to right
+      // if the array index 0 is 0 just print zero
+         create a function were all the single digits will be call is easier and not that ugly looking of a code (ex 1,2,3....,9 in words) use swtich cases
+         called the length of the string minus the 1 for null position 
+         do not iterate so your number variable will go to zero
+    b. create a loop in the loop where the input number equal to 2 this will read the first two numbers from left to right
+         if the array index length of the num minus the variable num  is equal to one
+         created other function were the teen numbers are (11...19 in words tho) use swtich cases
+         call in the function the string with index length minus the num + 1 so it will give you the words of the two numbres from left to right
+         do not iterate so your number variable will go to zero
+         return or break
+            
+             
+        else if the array index length of the number minus the variable num is NOT  equal to one
+         created other function use swtich cases  were the tens numbers are (10,20,30.......90 in words tho) 
+         call in the function the string with index length minus the num + 1 so it will give you the words of the two numbres from left to right
+         then decrease iteration of the number variable 
+            
+    c. create a loop in the loop where the input number equal to 3 this will read the first three numbers from left to right
+        created other function use swtich cases  were the tens numbers are (10,20,30.......90 in words tho) 
+        call in the function the string with index length minus the num so it will give you the words of the three numbres from left to right
+        then decrease iteration of the number variable 
+  
+    PSEUDOCODE FOR EXTRA NEEDED INFO/ FUNCTIONS
+    - Create a switch case for all the single digits (1,2.......9) and print in numbers void oneDigit(char n)
+        remember
+        /* case '0':printf("Zero ");   Is already in last function check () */
+    -Create a switch case for all the tens (10,20.....90) and print in numbers void digitTens(char x)
+   
+    -Create a switch case for all the tens (11,12......,19) and print in numbers void digitTeen(char x)
+    
+    -Create a switch case for all the tens (10,20.....90) and print in nuumbers  void digitHundreds(char x)
+  
+        create a loop where your variable from the function of single digits is not '0' then  then print hundred
+     
